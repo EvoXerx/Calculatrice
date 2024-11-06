@@ -1,0 +1,125 @@
+fieldset {
+
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(255, 0, 0);
+  border: 10px ridge #f00;
+
+
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #000d0d;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(252, 0, 0);
+}
+
+table {
+  border: 1px solid #020b02;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="button"] {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: rgb(47, 189, 54);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+
+}
+
+input[type="reset"] {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: rgb(9, 248, 228);
+  color: rgb(3, 88, 247);
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  padding: 20px 30px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 10px solid #de0303;
+  background-size:contain;
+  background-position: center;
+  background-size: cover;
+  background-position-y: 25%;
+  color:rgb(255, 255, 255);
+  background-image: url("https://www.icegif.com/wp-content/uploads/2021/10/icegif-918.gif");
+}
+
+input[type="button"]:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+input[type="reset"]:hover {
+  background-color: #f00;
+}
+
+input[value="="] {
+  background-color: rgb(9, 248, 228);
+  color:rgb(3, 88, 247)
+
+}
+
+input[value="/"] {
+  background-color: rgb(9, 248, 228);
+  color:rgb(3, 88, 247)
+}
+
+input[value="*"] {
+  background-color: rgb(9, 248, 228);
+  color:rgb(3, 88, 247)
+}
+
+input[value="-"] {
+  background-color: rgb(9, 248, 228);
+  color:rgb(3, 88, 247)
+}
+
+input[value="+"] {
+  background-color: rgb(9, 248, 228);
+  color:rgb(3, 88, 247)
+}
+
+
+body {
+  background-image: url("https://fr.web.img5.acsta.net/pictures/17/08/29/12/21/447409.jpg");
+  background-size: cover;
+} 
+
+
+.logo {
+  position:absolute;
+  top: 2px;
+  right: 2px;
+  width: 220px;
+  height: auto;
+}
+
+.logo2 {
+  position:absolute;
+  top: 2px;
+  left: 2px;
+  width: 220px;
+  height: auto;
+}
+
+video[id="video"] {
+  position:absolute;
+  bottom: 2px;
+  margin-left: 42%;
+  width: 300px;
+  height: auto;
+}

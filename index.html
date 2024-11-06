@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <script src = "https"
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://cinemadroide.files.wordpress.com/2019/09/cachapitre2-cinemadroide.gif?w=250&h=177&crop=1" class="logo2">
+    <img src="https://cinemadroide.files.wordpress.com/2019/09/cachapitre2-cinemadroide.gif?w=250&h=177&crop=1" class="logo">
+    
+    <form name ="form">
+        <div class = "container">
+            <fieldset>
+                <table id="calculator"> 
+                    <tr> 
+                        <td colspan="5"> 
+                            <input readonly type="text" id="Affichage" name="Affichage"> 
+                        </td> 
+                    </tr> 
+
+                    <tr> 
+                        <td><input type="button" value="7" onclick = "form.Affichage.value +='7'" ></td> 
+                        <td><input type="button" value="8" onclick = "form.Affichage.value +='8'"></td> 
+                        <td><input type="button" value="9" onclick = "form.Affichage.value +='9'"></td> 
+                        <td><input type="button" value="+" onclick = "form.Affichage.value +='+'"></td> 
+                    </tr> 
+                    <tr> 
+                        <td><input type="button" value="4" onclick = "form.Affichage.value +='4'"></td> 
+                        <td><input type="button" value="5" onclick = "form.Affichage.value +='5'"></td> 
+                        <td><input type="button" value="6" onclick = "form.Affichage.value +='6'"></td> 
+                        <td><input type="button" value="-" onclick = "form.Affichage.value +='-'"></td> 
+                    </tr> 
+                    <tr> 
+                        <td><input type="button" value="1" onclick = "form.Affichage.value +='1'"></td> 
+                        <td><input type="button" value="2" onclick = "form.Affichage.value +='2'"></td> 
+                        <td><input type="button" value="3" onclick = "form.Affichage.value +='3'"></td> 
+                        <td><input type="button" value="*" onclick = "form.Affichage.value +='*'"></td> 
+                    </tr> 
+                    <tr> 
+                        <td><input type="reset" value="C"></td> 
+                        <td><input type="button" value="0" onclick = "form.Affichage.value +='0'"></td> 
+                        <td><input type="button" value="=" onclick = "form.Affichage.value = eval(form.Affichage.value)"></td> 
+                        <td><input type="button" value="/" onclick = "form.Affichage.value +='/'"></td> 
+                    </tr> 
+                </table> 
+                
+    
+            </fieldset>
+        </div>
+    </form>
+
+</body>
+</html>
+
+
